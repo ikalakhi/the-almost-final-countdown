@@ -6,6 +6,7 @@ export default function Player() {
 
   function handelClik(){
     setEnteredPlayerNmae(playerName.current.value);
+    playerName.current.value = '';
   }
   
   return (
